@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour {
     public GameObject bullet;
+    public GameObject bulletHole;
     public GameObject player;
     public float delayTime = 0.9f;
 
@@ -28,9 +29,9 @@ public class Shooting : MonoBehaviour {
 
                 RaycastHit hit;
                 Ray ray = new Ray(transform.position, transform.forward);
-                if(Physics.Raycast(ray, out hit, 200f))
+                if (Physics.Raycast(ray, out hit, 200f))
                 {
-                    Instantiate();
+                    Instantiate(bulletHole,hit.point,Quaternion.FromToRotation(Vector3.up,hit.normal));
                 }
             }
 
