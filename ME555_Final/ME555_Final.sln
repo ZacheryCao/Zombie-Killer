@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME555_Final", "ME555_Final.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME555_Final.Editor.Plugins", "ME555_Final.Editor.Plugins.csproj", "{D04E37DB-3957-5AE8-0F9E-DA0825FDD844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME555_Final.Editor", "ME555_Final.Editor.csproj", "{6EAEE1BC-ED4D-9FEF-8C5F-74D5ECFA2007}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{D04E37DB-3957-5AE8-0F9E-DA0825FDD844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04E37DB-3957-5AE8-0F9E-DA0825FDD844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04E37DB-3957-5AE8-0F9E-DA0825FDD844}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EAEE1BC-ED4D-9FEF-8C5F-74D5ECFA2007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EAEE1BC-ED4D-9FEF-8C5F-74D5ECFA2007}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EAEE1BC-ED4D-9FEF-8C5F-74D5ECFA2007}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EAEE1BC-ED4D-9FEF-8C5F-74D5ECFA2007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
